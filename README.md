@@ -10,7 +10,7 @@ Certifique-se de ter o Python instalado e, em seguida, instale as bibliotecas ne
 !pip install visual_automata --upgrade
 ```
 
-Descrição da Máquina de Estados Finitos
+# Descrição da Máquina de Estados Finitos
 A MEF representa o comportamento de um controle remoto de TV com os seguintes estados e transições:
 
 Estados (Q):
