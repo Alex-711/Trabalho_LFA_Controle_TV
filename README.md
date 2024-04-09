@@ -45,8 +45,8 @@ P: Prime Video
 G: Globo Play
 
 Transições (δ):
+![Tabela de transição](Foto_tabela_transicao.png)
 
-As transições são definidas como um dicionário que mapeia cada estado e símbolo de entrada para o próximo estado.
 Estado Inicial:
 
 q0: TV desligada
