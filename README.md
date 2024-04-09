@@ -2,7 +2,7 @@
 Este repositório contém código Python que implementa uma Máquina de Estados Finitos (MEF) modelando o comportamento de um controle remoto de TV. A MEF é construída usando a biblioteca automathon para definir e trabalhar com autômatos finitos determinísticos (DFA), e a biblioteca visual_automata para visualizar DFAs.
 
 Instalação
-Certifique-se de ter de usar o GoogleColab ou o instalar o Jupyter Notebook[tutorial](https://jupyter.org/install) e, em seguida, instale as bibliotecas necessárias:
+Certifique-se de ter de usar o GoogleColab ou o instalar o Jupyter Notebook [tutorial](https://jupyter.org/install) e, em seguida, instale as bibliotecas necessárias:
 
 ```bash
 !pip install automathon --upgrade
@@ -80,8 +80,9 @@ Visualize o DFA:
 
 ```bash
 #convertendo o objeto DFA para VisualDFA
-dfa = VisualDFA(states=automata.Q, input_symbols=automata.sigma, transitions=automata.delta,
-                initial_state=automata.initialState, final_states=automata.F)
+#convertendo o objeto DFA para VisualDFA
+dfa = VisualDFA(states = automata.q, input_symbols = automata.sigma,transitions=automata.delta,initial_state = automata.initial_state,final_states=automata.f)
+
 ```
 Acesse a tabela de transições:
 
@@ -97,5 +98,5 @@ dfa.table
 [Documentação do automathon](https://rohaquinlop.github.io/automathon/)
 
 [visual_automata no PyPI](https://pypi.org/project/visual-automata/)
-
+[Código para visualização funcionando na integra](https://colab.research.google.com/drive/1dzYm548UzZMZOgMde33kMYTxzAqxGOyQ?usp=sharing)
 Para mais detalhes, consulte os links e documentação fornecidos.
