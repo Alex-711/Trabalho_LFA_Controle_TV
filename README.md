@@ -16,32 +16,50 @@ A MEF representa o comportamento de um controle remoto de TV com os seguintes es
 Estados (Q):
 
 q0: TV desligada
+
 q1: TV ligada
+
 q2: Selecionar usuário no aplicativo Netflix
+
 q3: Selecionar filme no aplicativo Netflix
+
 q4: Selecionar filme no aplicativo Globo Play (não requer autenticação)
+
 q5: Selecionar usuário no aplicativo Prime Video
+
 q6: Selecionar filme no aplicativo Prime Video
+
 Alfabeto (Σ):
 
 L: Botão de energia
+
 K: Enter/OK
+
 +: Aumentar volume
+
 -: Diminuir volume
+
 N: Netflix
+
 P: Prime Video
+
 G: Globo Play
+
 Transições (δ):
 
 As transições são definidas como um dicionário que mapeia cada estado e símbolo de entrada para o próximo estado.
 Estado Inicial:
 
 q0: TV desligada
+
 Estados Finais (F):
 
 q3: Filme selecionado no Netflix
+
 q4: Filme selecionado no Globo Play
+
 q6: Filme selecionado no Prime Video
+
 Uso
 Instancie o objeto DFA representando a MEF do controle remoto de TV:
 
@@ -66,7 +84,7 @@ dfa = VisualDFA(states=automata.Q, input_symbols=automata.sigma, transitions=aut
 ```
 Acesse a tabela de transições:
 
-python
+
 ```bash
 dfa.table
 ```
