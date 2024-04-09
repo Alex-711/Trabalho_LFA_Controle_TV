@@ -2,7 +2,7 @@
 Este repositório contém código Python que implementa uma Máquina de Estados Finitos (MEF) modelando o comportamento de um controle remoto de TV. A MEF é construída usando a biblioteca automathon para definir e trabalhar com autômatos finitos determinísticos (DFA), e a biblioteca visual_automata para visualizar DFAs.
 
 Instalação
-Certifique-se de ter de usar o GoogleColab ou o instalar o Jupyter Notebook [tutorial](https://jupyter.org/install) e, em seguida, instale as bibliotecas necessárias:
+Certifique-se de ter de usar o GoogleColab ou instalar o Jupyter Notebook [tutorial](https://jupyter.org/install) e, em seguida, instale as bibliotecas necessárias:
 
 ```bash
 !pip install automathon --upgrade
