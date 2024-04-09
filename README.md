@@ -80,7 +80,6 @@ Visualize o DFA:
 
 ```bash
 #convertendo o objeto DFA para VisualDFA
-#convertendo o objeto DFA para VisualDFA
 dfa = VisualDFA(states = automata.q, input_symbols = automata.sigma,transitions=automata.delta,initial_state = automata.initial_state,final_states=automata.f)
 
 ```
@@ -99,4 +98,5 @@ dfa.table
 
 [visual_automata no PyPI](https://pypi.org/project/visual-automata/)
 [Código para visualização funcionando na integra](https://colab.research.google.com/drive/1dzYm548UzZMZOgMde33kMYTxzAqxGOyQ?usp=sharing)
+
 Para mais detalhes, consulte os links e documentação fornecidos.
