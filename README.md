@@ -73,6 +73,7 @@ automata = DFA(Q, sigma, delta, initial_state, F)
 Verifique se o autômato é válido:
 ```
 ```bash
+#Verificando se o autômato é valido
 automata.is_valid()
 ```
 Visualize o DFA:
