@@ -79,6 +79,7 @@ automata.is_valid()
 Visualize o DFA:
 
 ```bash
+#convertendo o objeto DFA para VisualDFA
 dfa = VisualDFA(states=automata.Q, input_symbols=automata.sigma, transitions=automata.delta,
                 initial_state=automata.initialState, final_states=automata.F)
 ```
@@ -86,9 +87,11 @@ Acesse a tabela de transições:
 
 
 ```bash
+#Criando a tabela usando a propriedade do objeto VisualDFA.
 dfa.table
 ```
 **Referências**
+
 [Repositório do automathon no GitHub](https://github.com/rohaquinlop/automathon)
 
 [Documentação do automathon](https://rohaquinlop.github.io/automathon/)
